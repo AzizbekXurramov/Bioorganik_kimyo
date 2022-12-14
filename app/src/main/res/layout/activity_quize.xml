@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/ust"
+    android:fillViewport="true"
+    android:layout_height="match_parent"
+    tools:context=".test.Quize">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="15dp">
+
+        <TextView
+            android:id="@+id/savollar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            android:text="O'zbekistonning poytaxti?"/>
+
+        <LinearLayout
+            android:id="@+id/progresdetail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ProgressBar
+                android:id="@+id/progresbar"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:max="35"
+                android:minHeight="50dp"
+                android:progress="0"
+                android:indeterminate="false"/>
+
+            <TextView
+                android:id="@+id/tv_progres"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="#E40505"
+                android:padding="15dp"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:textColorHint="#EA0441"
+                tools:text="0/30"/>
+
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/variant1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:padding="13dp"
+            android:background="@drawable/buton_variant_bir"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            tools:text="navoiy"/>
+
+        <TextView
+            android:id="@+id/variant2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:padding="13dp"
+            android:background="@drawable/buton_variant_bir"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            tools:text="toskent"/>
+        <TextView
+            android:id="@+id/variant3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:padding="13dp"
+            android:textStyle="bold"
+            android:background="@drawable/buton_variant_bir"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            tools:text="xiva"/>
+        <TextView
+            android:id="@+id/variant4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:padding="13dp"
+            android:textStyle="bold"
+            android:background="@drawable/buton_variant_bir"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            tools:text="Samarqand"/>
+
+        <Button
+            android:id="@+id/submit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:background="@color/teal_200"
+            android:textColor="@color/black"
+            android:textSize="13sp"
+            android:textStyle="bold"
+            android:text="yuborish"/>
+
+
+
+    </LinearLayout>
+
+</ScrollView>

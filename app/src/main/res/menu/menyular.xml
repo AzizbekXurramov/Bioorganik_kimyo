@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item
+    android:id="@+id/bir"
+    android:title="@string/mualliflar"
+    android:icon="@drawable/ic_baseline_info_24"/>
+
+    <item
+        android:id="@+id/ikinchi"
+        android:title="@string/kitob_haqida"
+        android:icon="@drawable/ic_baseline_import_contacts_24"
+        />
+
+    <item
+        android:id="@+id/telegram"
+        android:title="@string/telegram"
+        android:icon="@drawable/ic_baseline_near_me_24"
+        />
+
+    <item
+        android:id="@+id/chiqish"
+        android:title="@string/chiqish"
+        android:icon="@drawable/ic_baseline_exit_to_app_24"/>
+</menu>

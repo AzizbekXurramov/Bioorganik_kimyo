@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Bioorganik kimyo</string>
+    <string name="mualliflar">Mualliflar</string>
+    <string name="kitob_haqida">Kitob haqida</string>
+    <string name="telegram">Telegram</string>
+    <string name="chiqish">Chiqish</string>
+    <string name="sillabus">Sillabus</string>
+    <string name="maruzalar">Maruzalar</string>
+    <string name="labaratoriya">Labaratoriya</string>
+    <string name="taqdimot">Taqdimot</string>
+</resources>
